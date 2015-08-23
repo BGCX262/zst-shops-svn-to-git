@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/title_banner" >
+
+        <ImageView
+            android:id="@+id/shop_logo"
+            android:layout_width="86dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/image_bg" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/shop_logo" >
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="威士忌红酒坊"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shop_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/crown"
+                android:gravity="bottom"
+                android:text="12级"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/table4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:stretchColumns="*"
+        >
+
+        <TableRow   
+            
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_span="2"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="订单"
+                android:textColor="#3f3f40"
+                android:textSize="16sp" >
+            </TextView>
+
+            <Button
+                android:gravity="center"
+                android:background="@drawable/home_btn_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_span="5"
+                android:drawableLeft="@drawable/handwork_add"
+                android:text="手工添加" >
+            </Button>
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/home_btn_selector"
+                android:layout_width="wrap_content"
+                 android:layout_height="40dp"
+                 android:drawableLeft="@drawable/sanner_add"
+                android:layout_span="5"
+                android:text="扫一扫添加" >
+            </Button>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="1dip"
+                android:layout_span="3"
+                android:gravity="center"
+                android:text="会员"
+                android:textColor="#3f3f40"
+                android:textSize="16sp" >
+            </TextView>
+
+            <Button
+                android:layout_width="1dip"
+                android:layout_span="4"
+                android:text="两字" >
+            </Button>
+
+            <Button
+                android:layout_width="1dip"
+                android:layout_span="4"
+                android:text="三个字" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

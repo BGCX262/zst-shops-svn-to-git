@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上通商铺版</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_home">首页</string>
+    <string name="main_publish">发布</string>
+    <string name="main_shop">商铺</string>
+    <string name="main_performance">业绩</string>
+
+</resources>
